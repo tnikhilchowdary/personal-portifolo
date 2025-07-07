@@ -1,27 +1,27 @@
-// src/Pages/Technologies.js
 import React from "react";
 import { techStackDetails } from "../Details";
 
 function Technologies() {
-const {
-  html,
-  css,
-  js,
-  react,
-  bootstrap,
-  vscode,
-  git,
-  github,
-  npm,
-  postman,
-  TypeScript,
-  NodeJS,
-  Express,
-  mongodb,
-  sql,
-  RestApi
-} = techStackDetails; 
-const iconStyle = "h-25 w-auto mx-auto hover:scale-105 transition-transform";
+  const {
+    html,
+    css,
+    js,
+    react,
+    bootstrap,
+    vscode,
+    git,
+    github,
+    npm,
+    postman,
+    TypeScript,
+    NodeJS,
+    Express,
+    mongodb,
+    sql,
+    RestApi,
+  } = techStackDetails;
+
+  const iconStyle = "h-25 w-auto mx-auto hover:scale-105 transition-transform";
 
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
