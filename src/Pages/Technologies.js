@@ -3,31 +3,24 @@ import React from "react";
 import { techStackDetails } from "../Details";
 
 function Technologies() {
-  const {
-    html,
-    css,
-    js,
-    react,
-    redux,
-    tailwind,
-    bootstrap,
-    sass,
-    vscode,
-    git,
-    github,
-    figma,
-    npm,
-    postman,
-    TypeScript,
-    NodeJS,
-    Express,
-    restapi,
-    mongodb,
-    sql,
-    visualstudio,
-    RestApi
-  } = techStackDetails;
-
+const {
+  html,
+  css,
+  js,
+  react,
+  bootstrap,
+  vscode,
+  git,
+  github,
+  npm,
+  postman,
+  TypeScript,
+  NodeJS,
+  Express,
+  mongodb,
+  sql,
+  RestApi
+} = techStackDetails; 
 const iconStyle = "h-25 w-auto mx-auto hover:scale-105 transition-transform";
 
   return (
