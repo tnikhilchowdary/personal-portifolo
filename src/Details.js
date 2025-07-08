@@ -27,12 +27,12 @@ import Express from "./assets/techstack/Express.png";
 import RestApi from "./assets/techstack/rest-api.png";
 
 // Project Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/project1.png"
+import projectImage2 from "./assets/projects/project2.png";
+import projectImage3 from "./assets/projects/project3.png";
+import projectImage4 from "./assets/projects/project4.png";
+import projectImage5 from "./assets/projects/project5.png";
+import projectImage6 from "./assets/projects/project6.png";
 
 // Logos
 export const logos = {
@@ -88,16 +88,21 @@ export const workDetails = [
     Company: "ADP",
     Location: "Chicago",
     Type: "Contract",
-    Duration: "JAN 2024 - PRESENT",
+    Duration: "Jan 2024 - Present",
+    Description:
+      "Developed reusable and responsive UI components using React.js, integrated RESTful APIs using Axios, implemented dynamic routing with React Router, and optimized performance with lazy loading and code-splitting. Collaborated in an Agile team using GitHub and contributed to sprint planning, code reviews, and component documentation."
   },
   {
     Position: "FULL STACK DEVELOPER",
     Company: "TRINOVA TECHNOLOGIES",
-    Location: "INDIA",
+    Location: "India",
     Type: "FULL TIME",
     Duration: "Sep 2021 - Dec 2021",
-  },
+    Description:
+      "Built full-stack web applications using React.js for frontend and Node.js + Express.js for backend. Created and tested REST APIs connected to MongoDB, managed application state with Context API, and handled secure authentication flows. Collaborated in daily Agile stand-ups and used Postman for endpoint testing."
+  }
 ];
+
 
 // Education
 export const eduDetails = [
@@ -120,54 +125,56 @@ export const eduDetails = [
 // Projects
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "React Notes App",
     image: projectImage1,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "A fully functional Notes App built with React.js that allows users to create, edit, and delete notes. Uses localStorage to persist data even after refreshing the page.",
+    techstack: "React",
+    previewLink: "https://addnotesinreact.netlify.app/",
+    githubLink: "https://github.com/tnikhilchowdary/notes-app-react",
   },
   {
-    title: "Project title 2",
+    title: "Currency Exchange App",
     image: projectImage2,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "An interactive currency converter built with React.js and ExchangeRate API. Converts multiple currencies in real-time and displays conversion rates with accuracy.",
+    techstack: "React",
+    previewLink: "https://currency-exchangers.netlify.app/",
+    githubLink: "https://github.com/tnikhilchowdary/currency-exchange-app",
   },
   {
-    title: "Project title 3",
+    title: "React To-Do List",
     image: projectImage3,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
+    description: "A simple React app to manage tasks using the useState hook. Users can add or delete to-dos, with clean UI and basic event handling. Great for beginners in React.",
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://todolistimoportant.netlify.app/",
+    githubLink: "https://github.com/tnikhilchowdary/ToDoList",
   },
   {
-    title: "Project title 4",
+    title: "Counting Fruits",
     image: projectImage4,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "A beginner React app for counting fruits like mangoes and bananas. Demonstrates useState, component interaction, and dynamic UI rendering. Simple and fun project.",
+    techstack: "React",
+    previewLink: "https://fruitscounting.netlify.app/",
+    githubLink: "https://github.com/tnikhilchowdary/fruits-counter",
   },
   {
-    title: "Project title 5",
+    title: "TNC Budget App",
     image: projectImage5,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "A personal finance tracker built in React. Users can add, edit, and categorize expenses or income. Uses hooks like useState/useEffect. Simple and clean UI experience.",
+    techstack: "React",
+    previewLink: "https://tncbudgetapp.netlify.app",
+    githubLink: "https://github.com/tnikhilchowdary/tnc-budget-app",
   },
   {
-    title: "Project title 6",
+    title: "Read Less / More",
     image: projectImage6,
-    description: "This is sample project description. Random things are here in description. This is sample project lorem ipsum generator for dummy content.",
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "A small JavaScript/jQuery feature to expand/collapse content. Useful for FAQs, blogs, or long text blocks. Built using toggle visibility logic and clean interaction.",
+    techstack: "React",
+    previewLink: "https://readmoredata.netlify.app/",
+    githubLink: "https://github.com/tnikhilc",
   },
 ];
+
+
 
 // Contact
 export const contactDetails = {
