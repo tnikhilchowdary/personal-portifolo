@@ -93,7 +93,7 @@ export const workDetails = [
       "Developed reusable and responsive UI components using React.js, integrated RESTful APIs using Axios, implemented dynamic routing with React Router, and optimized performance with lazy loading and code-splitting. Collaborated in an Agile team using GitHub and contributed to sprint planning, code reviews, and component documentation."
   },
   {
-    Position: "FULL STACK DEVELOPER",
+    Position: "Full Stack Developer",
     Company: "TRINOVA TECHNOLOGIES",
     Location: "India",
     Type: "FULL TIME",
