@@ -38,6 +38,7 @@ function About() {
         </div>
       </section>
 
+      
 
       {/* Education Section */}
       <section>
