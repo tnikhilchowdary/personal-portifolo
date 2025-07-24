@@ -38,7 +38,38 @@ function About() {
         </div>
       </section>
 
-      
+           {/* Work Experience Section */}
+      <section className="mb-16">
+        <h1 className="text-3xl md:text-4xl font-bold text-dark-heading dark:text-light-heading mb-6">
+          Work Experience
+        </h1>
+        {workDetails.map((work, index) => (
+          <div
+            key={index}
+            className="mb-8 p-6 border border-gray-700 rounded-lg bg-gray-900 shadow hover:shadow-lg transition"
+          >
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+              <div>
+                <h2 className="text-2xl font-semibold text-white">{work.Position}</h2>
+                <p className="text-gray-400 text-md">
+                  {work.Company} · {work.Location}
+                </p>
+              </div>
+              <span className="text-sm bg-green-300 text-green-900 px-3 py-1 rounded-full mt-3 md:mt-0 inline-block">
+                {work.Type}
+              </span>
+            </div>
+            <p className="text-gray-300 mt-3 text-base">{work.Duration}</p>
+
+            {/* ✅ Work Description */}
+            {work.Description && (
+              <p className="text-gray-400 mt-3 text-base leading-relaxed">
+                {work.Description}
+              </p>
+            )}
+          </div>
+        ))}
+      </section>
 
       {/* Education Section */}
       <section>

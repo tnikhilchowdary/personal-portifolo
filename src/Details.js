@@ -84,22 +84,22 @@ export const socialMediaUrl = {
 // Work Experience
 export const workDetails = [
   {
-    Position: "React Developer",
-    Company: "ADP",
-    Location: "Chicago",
+    Position: "Full Stack Developer",
+    Company: "Allstate",
+    Location: "Usa",
     Type: "Contract",
     Duration: "Jan 2024 - Present",
     Description:
-      "Developed reusable and responsive UI components using React.js, integrated RESTful APIs using Axios, implemented dynamic routing with React Router, and optimized performance with lazy loading and code-splitting. Collaborated in an Agile team using GitHub and contributed to sprint planning, code reviews, and component documentation."
+    "Developed and deployed a robust claims management dashboard using React.js with Redux and React Router, significantly enhancing adjuster efficiency and application responsiveness. Implemented secure role-based access control (RBAC) on the Node.js backend using Express middleware and JWT, protecting over 15 internal microservices. Leveraged GraphQL for optimized data fetching, introduced custom React hooks for resilient API handling, and improved performance with Redis caching. Designed AWS-native CI/CD pipelines using Docker and GitHub Actions for seamless deployments, while managing structured and unstructured data with PostgreSQL and MongoDB for dynamic reporting needs."
   },
   {
-    Position: "Full Stack Developer",
-    Company: "TRINOVA TECHNOLOGIES",
+    Position: "Backend Developer",
+    Company: "Space Infolab",
     Location: "India",
-    Type: "FULL TIME",
-    Duration: "Sep 2021 - Dec 2021",
+    Type: "Full Time",
+    Duration: "May 2021 - June 2023",
     Description:
-      "Built full-stack web applications using React.js for frontend and Node.js + Express.js for backend. Created and tested REST APIs connected to MongoDB, managed application state with Context API, and handled secure authentication flows. Collaborated in daily Agile stand-ups and used Postman for endpoint testing."
+    "Engineered a Node.js microservice architecture for a real-time logistics tracking system using Express.js, JWT, and MongoDB, enhancing route visibility and reducing system downtime. Designed versioned RESTful APIs with Joi validation and Swagger documentation, ensuring smooth third-party integrations and backward compatibility. Built a high-throughput image upload pipeline with AWS S3 and Lambda for scalable document storage and auditing. Achieved 85%+ test coverage with Jest and Supertest, minimizing bugs. Partnered with frontend teams to deliver APIs supporting dynamic rendering and efficient pagination for dashboard views."
   }
 ];
 
