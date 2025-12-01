@@ -42,7 +42,7 @@ export const logos = {
 
 // Personal Details
 export const personalDetails = {
-  name: "Nikhil Chowdary Thummalapalli",
+  name: "TNC",
   tagline: "I build things for web",
   img: profile,
   about: "I'm Nikhil, a frontend developer skilled in React and backend development with Node.js.\nI build responsive, user-centric web applications with clean, efficient code.\nI’ve led full-stack projects involving API integration, state management, and authentication.\nMy strong leadership skills help me guide teams, manage tasks, and deliver results effectively.\nI’m passionate about creating impactful digital solutions and growing through collaboration.",
