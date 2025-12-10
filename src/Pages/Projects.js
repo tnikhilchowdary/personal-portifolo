@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
-import './project.css'; // ✅ Make sure you import this
+import './project.css'; 
 
 function Projects() {
   return (

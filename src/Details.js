@@ -27,7 +27,7 @@ import Express from "./assets/techstack/Express.png";
 import RestApi from "./assets/techstack/rest-api.png";
 
 // Project Images
-import projectImage1 from "./assets/projects/project1.png"
+import projectImage1 from "./assets/projects/dashboard.png"
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
@@ -125,12 +125,12 @@ export const eduDetails = [
 // Projects
 export const projectDetails = [
   {
-    title: "React Notes App",
+    title: "Mern-ToDo-Dashboard-App",
     image: projectImage1,
-    description: "A fully functional Notes App built with React.js that allows users to create, edit, and delete notes. Uses localStorage to persist data even after refreshing the page.",
-    techstack: "React",
-    previewLink: "https://addnotesinreact.netlify.app/",
-    githubLink: "https://github.com/tnikhilchowdary/notes-app-react",
+    description: "The Fullstack-Project-Using-AI is a modern, end-to-end task management and productivity tracking system built to showcase real-world full-stack development skills. This application enables users to create tasks, organize them, track progress, and analyze productivity through an elegant, interactive dashboard.",
+    techstack: "React, NodeJs, Express, MongoDB",
+    previewLink: "https://github.com/tnikhilchowdary/fullstack-project-using-AI",
+    githubLink: "https://github.com/tnikhilchowdary/fullstack-project-using-AI",
   },
   {
     title: "Currency Exchange App",
