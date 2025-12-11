@@ -28,7 +28,7 @@ import RestApi from "./assets/techstack/rest-api.png";
 
 // Project Images
 import projectImage1 from "./assets/projects/dashboard.png"
-import projectImage2 from "./assets/projects/project2.png";
+import projectImage2 from "./assets/projects/todo.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
 import projectImage5 from "./assets/projects/project5.png";
@@ -133,12 +133,12 @@ export const projectDetails = [
     githubLink: "https://github.com/tnikhilchowdary/fullstack-project-using-AI",
   },
   {
-    title: "Currency Exchange App",
+    title: "Mern To-DO",
     image: projectImage2,
-    description: "An interactive currency converter built with React.js and ExchangeRate API. Converts multiple currencies in real-time and displays conversion rates with accuracy.",
-    techstack: "React",
-    previewLink: "https://currency-exchangers.netlify.app/",
-    githubLink: "https://github.com/tnikhilchowdary/currency-exchange-app",
+    description: "A fully functional Todo management system built using the MERN stack and deployed in a real production workflow (Frontend on Vercel, Backend on Render, Database on MongoDB Atlas). This project demonstrates my ability to architect, build, and deploy complete full-stack applications with clean code structure and cloud-based hosting.",
+    techstack: "React, NodeJs, Express, MongoDb",
+    previewLink: "https://mern-todo-application-green.vercel.app/",
+    githubLink: "https://github.com/tnikhilchowdary/mern-todo-application",
   },
   {
     title: "React To-Do List",
